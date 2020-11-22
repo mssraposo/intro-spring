@@ -25,4 +25,17 @@ public class TorcedorDAO {
 		return torcedores;
 	}
 	
+	public Torcedor getId(int id) {
+		return torcedores.get(id);
+	}
+	
+	public void excluir(int id) {
+		torcedores.remove(id);
+	}
+	
+	public void editar(int id, Torcedor torcedor) {
+		torcedores.get(id).setNome(torcedor.getNome());
+		torcedores.get(id).setTime(torcedor.getTime());
+	}
+	
 }

@@ -32,8 +32,8 @@
 						<td>${torcedor.nome}</td>
 						<td>${torcedor.time}</td>
 						<td>
-						<a href="#">Editar</a>
-						<a href="#">Excluir</a>
+						<a href="editar/${torcedores.indexOf(torcedor)}">Editar</a>
+						<a href="excluir/${torcedores.indexOf(torcedor)}">Excluir</a>
 						</td>
 					</tr>
 				</c:forEach>
