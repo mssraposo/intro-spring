@@ -19,7 +19,7 @@ public class Torcedor implements Serializable {
 		return result;
 	}
 	
-	/* teste */
+	/* teste2 */
 
 	@Override
 	public boolean equals(Object obj) {
