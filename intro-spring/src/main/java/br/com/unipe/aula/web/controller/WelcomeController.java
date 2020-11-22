@@ -97,7 +97,7 @@ public class WelcomeController {
 	}	
 	
 	@PostMapping(value = "/update/{id}")
-	public String updateTorcedor(@PathVariable("id") int id, @ModelAttribute Torcedor torcedor) {
+	public String updateTorcedor(@PathVariable("id") long id, @ModelAttribute Torcedor torcedor) {
 		
 		dao.editar(id,  torcedor);
 		

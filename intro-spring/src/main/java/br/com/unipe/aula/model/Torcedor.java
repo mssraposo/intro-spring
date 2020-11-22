@@ -18,8 +18,6 @@ public class Torcedor implements Serializable {
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
 	}
-	
-	/* teste2 */
 
 	@Override
 	public boolean equals(Object obj) {
